@@ -1,0 +1,21 @@
+$blue-AO : #68C0EA;
+
+.main-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    .item {
+        padding: 8px;
+        background-color: $blue-AO;
+        color: white;
+        border: 1px solid $blue-AO;
+        border-radius: 8px;
+
+        span {
+            font-weight: 600;
+            margin-left: 8px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+$blue-AO : #68C0EA;
+
+.main-box {
+    width: fit-content;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid $blue-AO;
+    color: $blue-AO;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: $blue-AO;
+        color: white;
+    }
+}

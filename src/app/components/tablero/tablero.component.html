@@ -1,0 +1,13 @@
+<div class="title">
+    📃 Características:
+</div>
+<div class="main-box">
+    <div 
+    class="item" 
+    *ngFor="let item of data" 
+    (click)="addActive(item)"
+    [ngClass]="{'item-active': item.isSelected}"
+    >
+        {{item.name}}
+    </div>
+</div>

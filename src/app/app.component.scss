@@ -1,0 +1,8 @@
+.main-layout {
+    display: flex;
+    gap: 16px;
+
+    app-tablero, app-resumen{
+        width: 50%;
+    }
+}

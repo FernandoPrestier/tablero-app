@@ -1,0 +1,31 @@
+$blue-AO : #68C0EA;
+
+.main-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    
+    .item {
+        cursor: pointer;
+        padding: 8px;
+        border: 1px solid gray;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            border: 1px solid $blue-AO;
+            color: $blue-AO;
+        }
+
+        &-active {
+            background-color: $blue-AO;
+            color: white;
+            border: 1px solid $blue-AO;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}
